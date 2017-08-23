@@ -9,12 +9,23 @@
 </head>
 <body>
 <div id="root"></div>
+<div id="disp"></div>
 
 <script type="text/babel">
     ReactDOM.render(
       <h1>Hello, world!</h1>,
       document.getElementById('root')
     )
+    const root = document.querySelector('#disp')
+    const msg = getGreeting()
+    ReactDOM.render(msg, root)
+
+    function getGreeting () {
+      const r = Math.floor(Math.random() * 3)
+      if (r === 0) return <p>おはよう！！</p>
+      if (r === 1) return <p>こんにちは！！</p>
+      if (r === 2) return <p>さようなら！！</p>
+    }
 </script>
 
 </body>
