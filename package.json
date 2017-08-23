@@ -1,0 +1,19 @@
+{
+  "name": "react-sample",
+  "version": "1.0.0",
+  "description": "【書籍】いまどきのJSプログラマーのためのNode.jsとReactアプリケーション 開発テクニック",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawa0526/react-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zawa0526/react-sample/issues"
+  },
+  "homepage": "https://github.com/zawa0526/react-sample#readme"
+}
